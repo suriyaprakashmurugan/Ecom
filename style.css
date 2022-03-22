@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav_bar{
+    height: 28px;
+    width: 100%;
+    background-color:#068bc7;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    position: fixed;
+}
+
+.logo{
+    height: 28px;
+    width: 20%;
+    text-align: center;
+}
+.shop{
+    padding-top: 3px;
+    
+}
+.search{
+    height: 28px;
+    width: 200px;
+       
+}
+input{
+    height: 15px;
+    width: 200px;
+    padding: 0px 15px;
+    margin-top: 6px;
+    border-radius: 25px;
+    outline-style: none;
+    border: none;
+    font-size: 8PX;
+}
+.abb{
+    width: 25%;
+    display: flex;
+    
+}
+.abb-item{
+    line-height: 28px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+.abb-item:hover{
+    color:#068bc7 ;
+    background-color: white;
+}
+.butt{
+    line-height: 25px;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 10px;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    background-color:#068bc7 ;
+    border-radius:10px;
+    /* padding: 2px 5px; */
+}
+.banar{
+    height: 300px;
+    width: 100%;
+    background:url('img/back.jpg')no-repeat;
+    background-size: cover;  
+    padding-top: 28px;
+ 
+}
+.overlay{
+    height: 300px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.ecom{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    top: 100px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+
+.ecom1{
+    height: 100px;
+    width: 100px;
+    background: url('img/shirt.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ecom2{
+    height: 100px;
+    width: 100px;
+    background: url('img/pant.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ecom3{
+    height: 100px;
+    width: 100px;
+    background: url('img/mob.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.ecom4{
+    height: 100px;
+    width: 100px;
+    background: url('img/lap.jpg');
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.end{
+    height: 200px;
+    width: 100%;
+    font-size: 10px;
+    background-color:grey;
+    color: whitesmoke;
+    text-align: justify;
+}
+h2{
+    text-align: center;
+}
+.mar{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.contant{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.flex{
+    height: 100px;
+    width: 150px;
+    padding-top: 20px;
+    /* background-color: yellow; */
+}

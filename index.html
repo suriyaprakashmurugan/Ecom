@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>ex develope web for practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav_bar" id="nav">
+            <div class="logo">
+                <p class="shop">suriya shop </p> 
+                
+            </div>
+            <div class="search">
+                <input class="search_bar"type="text" >
+            </div>
+            <div class="abb">
+                <div class="abb-item"><a>login</a></div>
+                <div class="abb-item"><a>whishlist</a></div>
+                <div class="abb-item"><a>orders</a> </div>
+                <div><button class="butt" id="but" onclick="dfun()">dark</button></div>
+                <div><button class="butt" id="buttan" onclick="nfun()">nml</button></div>
+
+            </div>
+        </div>
+
+            <div class="banar">
+                <div class="overlay">
+                    <div class="ecom">
+                        <div class="ecom1">shirts</div>
+                        <div class="ecom2">pants</div>
+                        <div class="ecom3">mobiles</div>
+                        <div class="ecom4">laptops</div>
+                    </div>
+                </div>
+            </div>
+            <div class="end">
+                <h2>web</h2>
+                <p class="mar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, asperiores magni placeat dolorem repellendus deserunt omnis ipsam quos commodi numquam, odit expedita excepturi reiciendis doloremque consequuntur rem? Officiis, quas sunt.</p>
+                <div class="contant">
+                    <div class="flex">
+                        <h5>contact</h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione voluptates tempore pariatur? Porro est consequuntur dignissimos. Numquam id laudantium nihil enim, delectus libero, dolorum consequatur vel reiciendis cupiditate impedit!
+                    </div>
+                    <div class="flex">
+                        <h5>about us</h5>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi ratione voluptates tempore pariatur? Porro est consequuntur dignissimos. Numquam id laudantium nihil enim, delectus libero, dolorum consequatur vel reiciendis cupiditate impedit!
+                    </div>
+                </div>
+
+            </div>
+    </div>
+    <script>
+        function dfun(){
+            document.getElementById("nav").style.backgroundColor="black";
+            document.getElementById("but").style.backgroundColor="black";
+            document.getElementById("buttan").style.backgroundColor="black";
+        }
+        function nfun(){
+            document.getElementById("nav").style.backgroundColor="#068bc7";
+            document.getElementById("but").style.backgroundColor="#068bc7";
+            document.getElementById("buttan").style.backgroundColor="#068bc7";
+        }
+    </script>
+</body>
+</html>
